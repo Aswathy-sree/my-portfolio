@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="home-content">
+      <h1>Hello, I’m Aswathy Sreekumar<h1>
+        <h3>—a passionate creator ready to bring ideas to life!</h3>
+    </div>
+  </section>
+
+  <!-- About Section -->
+<!-- About Section -->
+<section id="about">
+  <h2>ABOUT ME</h2>
+  <p>
+    I am currently pursuing my Master of Computer Applications (MCA), where I am gaining a deep understanding of software development, data structures, algorithms, and emerging technologies. 
+    My academic journey began with a BSc in Mathematics, where I developed strong analytical thinking and problem-solving skills. This background has given me a unique perspective in programming, helping me approach challenges logically and efficiently.
+  </p>
+  <ul>
+    <li>Software Engineering & Design Patterns</li>
+    <li>Data Structures and Algorithms</li>
+    <li>Database Management Systems (SQL & NoSQL)</li>
+    <li>Problem-Solving and Competitive Programming</li>
+  </ul>
+
+  <p>
+    In addition to technical skills, I am an enthusiastic learner who enjoys collaborating with others on projects. I thrive in environments that encourage continuous learning and innovation.
+    When I’m not coding, I enjoy reading, solving puzzles, and staying updated with the latest trends in technology.
+  </p>
+</section>
+
+
+  <!-- Projects Section -->   
+  <section id="projects">
+    <h2>MY PROJECTS</h2>
+    <div class="project-card">
+      <h3>ENERGYON website with chatbot deployment</h3>
+      <h4>project overview</h4>
+      <p>The ENERGYON Website with Chatbot Deployment is a web-based platform designed to showcase the innovative energy solutions offered by ENERGYON. The goal is to provide an informative, interactive, and user-friendly experience to users interested in clean and sustainable energy services. A chatbot integrated into the site enhances user engagement by offering real-time responses to queries, assisting with navigation, and providing information about services and contact details.</p>
+    </div>
+    <div class="project-card">
+      <h3>Federated learning data poisoning attack</h3>
+      <h4>project overview</h4>
+      <p>Federated Learning is a decentralized approach to machine learning that allows multiple devices or clients to collaboratively train a shared model without sharing their raw data. While FL offers privacy benefits, it introduces new vulnerabilities—one of the most significant being data poisoning attacks. In a data poisoning attack, malicious clients inject incorrect or manipulated data into the learning process, disrupting the global model's performance.This project explores the threat of data poisoning in federated learning, investigates potential attack strategies, and proposes defensive techniques to mitigate such risks.
+      <h4>Technologies Used</h4>
+        <h5>Python:</h5> 
+          <p>For writing the code to simulate federated learning and implement attacks.</p>
+         <h5>Machine Learning Libraries:</h5>
+          <p>TensorFlow or PyTorch: For model training and aggregation.</p>
+          <h5>Federated Learning Framework:</h5>
+         <p> Flower (FLwr): A framework for building and running federated learning simulations.</p>
+          <h5>Matplotlib / Seaborn:</h5>
+          <p> For data visualization and impact analysis.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div id="thankYouMessage" style="display: none;">Thank you for contacting me!</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
